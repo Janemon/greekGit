@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
   setTimeout(()=>{
-    document.write("<h2>Hi! I am Janemon</h2>")
+    let h1=document.getElementByTagName("h1")[0]
+    let h2=document.createElement("<h2>Hi!! I am Janemon.</h2>")
+    h1.appendChild(h2)
   }, 2000)
 })
