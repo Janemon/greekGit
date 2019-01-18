@@ -1,2 +1,3 @@
 This is branch2
 test alias "gcm"==="git commit -m"
+test alias "gac"==="git add . && git commit -m"
